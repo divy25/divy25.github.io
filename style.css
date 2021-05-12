@@ -481,7 +481,7 @@ section .protitle::before {
   margin: 0 8px 0 8px;
 }
 .projects .carousel .card:hover {
-  background: #336699;
+  background: #ffa600;
 }
 .projects .carousel .card .box {
   display: flex;
@@ -504,7 +504,7 @@ section .protitle::before {
   /* margin: 10px 0 7px 0; */
 }
 .card {
-  height: 600px;
+  height: 500px;
 }
 .projects .carousel .card a {
   text-decoration: none;
@@ -519,7 +519,7 @@ section .protitle::before {
   margin: 10px 0 10px 0;
 }
 .projects .carousel .card img {
-  height: 270px;
+  height: 200px;
   width: 420px;
   /* object-fit: cover; */
   /* border: 2px solid crimson; */
@@ -842,4 +842,17 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+}
+
+/* .content {
+    display: flex;
+    flex-direction: row;
+  }
+   */
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .content {
+      flex-direction: column;
+    }
+  
 }
